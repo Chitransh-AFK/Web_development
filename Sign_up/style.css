@@ -1,0 +1,105 @@
+body{
+    background-image: url('bg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* keeps it centered on all screens */
+    background-attachment: fixed;    /* keeps the background fixed during scroll */
+} 
+#container{
+    width:auto;
+    height: auto;
+    align-items: middle;
+    padding-top: 10%;
+    justify-content: center;
+    display: flex;
+
+}
+
+#box{
+    background-color: rgba(255, 255, 255, 0.351);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#signup:hover{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: ease-out 0.3s;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.747);
+    color: rgb(132, 0, 255);
+  
+    
+}
+
+#form-box{
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    margin:10px
+}
+#username,#password,#email,#confirm_password{
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    width: 350px;
+    transition: transform 0.7s  ease-out;
+    margin-top: 10px;
+
+
+    
+}
+#username:hover,#password:hover,#email:hover,#confirm_password:hover{
+    margin:10px;
+    padding:12px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    width: 350px;
+    transform:scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.747);
+    
+    
+}
+/*Submit*/
+#submit-box{
+    display:flex;
+    justify-content: center;}
+#submit{
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    transition: ease-out 0.3s;
+}
+#submit:hover{
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    transform: scale(1.2) ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.747);
+}
+
+
